@@ -21,18 +21,14 @@ a = int(input())
 b = int(input())
 c = int(input())
 d = int(input())
-if (0 < a <=10) and (0 < b <= 10) and (0 < c <=10) and (0 < d <= 10) and a<=b and c<=d:
+if (0 < a <= 10) and (0 < b <= 10) and (0 < c <= 10) and (0 < d <= 10) and a<=b and c <= d:
     print("", end='\t')
     for i in range(c, d+1):
-        print(i, end ='\t')
+        print(i, end='\t')
     print()
     for j in range(a, b+1):
-        print(j, end ='\t')
-        for i in range(c, d+1):
+        print(j, end='\t')
+        for i in range(c,d+1):
             print(i*j, end='\t')
         print()
-        
-
-
-       
 
